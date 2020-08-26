@@ -1,0 +1,12 @@
+## Interface: 80300
+## Title: ActionMode
+## Notes: The ActionMode changes the basic principles of mouse control and activates an ActionCam
+## Version: 1.0
+## Author: Hailgrim (rasstrelyat@gmail.com)
+## DefaultState: enabled
+## LoadOnDemand: 0
+## X-Category: Interface Enhancements
+## SavedVariables: ActionModeConfig
+ActionMode.lua
+ActionMode.xml
+Bindings.xml

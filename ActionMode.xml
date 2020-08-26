@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/..\FrameXML\UI.xsd">
+	<Frame name="ActionModeFrame" hidden="true" parent="UIParent">
+		<Scripts>
+			<OnLoad>
+				self:RegisterEvent("EXPERIMENTAL_CVAR_CONFIRMATION_NEEDED")
+				self:RegisterEvent("PLAYER_ENTERING_WORLD")
+				ActionModeOnLoad()
+			</OnLoad>
+			<OnEvent>
+				ActionModeOnEvent(event)
+			</OnEvent>
+			<!--<OnUpdate>
+				ActionModeOnUpdate()
+			</OnUpdate>-->
+		</Scripts>
+	</Frame>
+</Ui>

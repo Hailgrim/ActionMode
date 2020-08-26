@@ -1,0 +1,10 @@
+<Bindings>
+	<Binding name="Toggle ActionMode" description="Enable/disable ActionMode" header="ActionMode">
+		<!-- runOnUp="true" (KeyDown Binding attribute) -->
+		<!-- if (keystate == "down") then ... end -->
+		ActionModeToggle()
+	</Binding>
+	<!--<Binding name="Toggle ActionCam" description="Enable/disable ActionCam" header="ActionMode">
+		ActionCamToggle()
+	</Binding>-->
+</Bindings>
